@@ -28,8 +28,29 @@ main{
 
 #input-adds{
 	width:80%;
-	height:80%;
+	height:7%;
 	background-color: rgb(255, 255, 255);
    margin:0 auto;
+	padding:15px 30px 5px;
+	border-radius: 3px;
+}
+
+.add-input{
+	padding:5px;
+	border-radius:5px;
+	width:auto;
+	display:inline;
+	font-size: 10px;
+	margin-right:5px;
+}
+
+#add-task{
+	color:white;
+	background-color:rgb(59, 59, 255);
+}
+
+#add-section{
+	color:grey;
+	border: 1px solid grey;
 }
 
