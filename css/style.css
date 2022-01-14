@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	padding: 10px 20px;
+	width:100%;
+}
+
+#main-logo{
+	vertical-align:bottom;
+}
+
+.logo-description{
+	font-size: 40px;
+	font-weight:700;
+}
