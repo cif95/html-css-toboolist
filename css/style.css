@@ -6,14 +6,30 @@
 
 header{
 	padding: 10px 20px;
-	width:100%;
+	width:100vw;
+}
+
+main{
+	background-color: rgba(206, 206, 206, 0.808);
+	width:100vw;
+	height:100vh;
+	padding:35px 30px 10px;
+}
+
+
+.logo-description{
+	font-size: 40px;
+	font-weight:700;
 }
 
 #main-logo{
 	vertical-align:bottom;
 }
 
-.logo-description{
-	font-size: 40px;
-	font-weight:700;
+#input-adds{
+	width:80%;
+	height:80%;
+	background-color: rgb(255, 255, 255);
+   margin:0 auto;
 }
+
