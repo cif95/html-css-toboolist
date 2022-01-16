@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+header{
+	height:20%;
+}
+
+main{
+	background-color: rgb(23, 19, 53);
+	height: 100vh;
+	width: 100vw;
+	padding:20px 50px 10px;
+}
+
+ul{
+	margin:5px 0px;
+	list-style: none;
+}
+
+li{
+	margin-top: 10px;
+	padding-left:5px;
+}
+
+
+.central-white-section{
+	background-color: rgb(255, 255, 255,0.7);
+	margin:0 auto;
+	width: 80%;
+}
+
+.central-white-section, .add-button{
+	border-radius: 10px;
+}
+
+.add-button{
+	display: inline;
+	margin-right:5px;
+	padding: 2px 5px;
+	font-size:12px;
+}
+
+.done::before {
+	content: "\2713";
+	color:green;
+}
+
+
+.undone::before {
+	content: "\292B";
+	color:red;
+}
+
+
+.tag{
+	display: inline-block;
+   padding: 3px 9px;
+	border-radius:10px;
+	margin-left:5px;
+	font-size:13px;
+	color:white;
+}
+
+.editorial-tag{
+	background-color: rgb(59, 160, 255);
+}
+
+.q1goals-tag{
+	background-color: rgba(163, 92, 230);
+}
+
+.recruiting-tag{
+	background-color: rgb(82, 190, 82);
+}
+
+.mobile-tag{
+	background-color: rgb(224, 170, 69);
+}
+
+.website-tag{
+	background-color: rgb(199, 85, 151);
+}
+
+.sales-tag{
+	background-color:rgb(159, 175, 71);
+}
+
+.section-title{
+	font-size:20px;
+	margin-top:20px;
+}
+
+.section-title:hover{
+	border-bottom: 1px solid rgb(23, 19, 53);
+}
+
+.main-logo, .tag, #logo-description{
+	vertical-align: middle;
+}
+
+#logo-container{
+	background-color: rgb(193, 193, 193);
+	padding: 5px 20px;
+}
+
+#logo-description{
+	font-size: 40px;	
+	font-weight: 700;
+}
+
+#toboolist{
+	padding: 10px 0;
+}
+
+#add-inputs{
+	border-bottom: 2px solid rgb(23, 19, 53);
+	padding:10px 40px;
+	color:white;
+}
+
+#add-task:hover, #add-section:hover, .tag:hover{
+	outline: 1px solid white;
+}
+
+#add-task{
+	background-color: rgb(23, 19, 53);
+}
+
+#add-section{
+	background-color:  rgb(127, 223, 115);
+}
+
+#tasks-viewer{
+	margin: 0 0;
+	padding:0 40px;
+}
